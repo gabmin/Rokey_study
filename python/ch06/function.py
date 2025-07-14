@@ -45,13 +45,16 @@ def fun_cc():
 
 fun_cc()
 
+num_a = int(input("첫번째 숫자를 입력하세요."))
+num_b = int(input("두번째 숫자를 입력하세요."))
+
 
 def fadd(a, b):
     return a + b
 
 
 def fsub(a, b):
-    return a + b
+    return a - b
 
 
 def fmul(a, b):
@@ -62,7 +65,7 @@ def fdiv(a, b):
     return a / b
 
 
-print(fadd(100, 3))
-print(fsub(100, 3))
-print(fmul(100, 3))
-print(fdiv(100, 3))
+print(fadd(num_a, num_b))
+print(fsub(num_a, num_b))
+print(fmul(num_a, num_b))
+print(fdiv(num_a, num_b))
