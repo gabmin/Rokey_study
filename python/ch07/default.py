@@ -16,3 +16,6 @@ def typed_function(a: int, b: int) -> int:
 
 
 print(typed_function(10, 20))
+
+# 강제성은 없다.
+print(typed_function(10.1, 20.5))
