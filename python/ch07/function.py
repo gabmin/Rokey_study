@@ -29,3 +29,24 @@ print(a1, b1)
 global_swap_function(a1, b1)
 
 print(a1, b1)
+
+
+x = 10
+
+
+# 에러 발생!!!
+def fadd(num):
+    global x
+    print(x)
+    x = x + num
+    print("x는", x)
+
+
+fadd(10)
+
+
+def print_lower_price(price):
+    print(price * 0.9)
+
+
+print_lower_price(10000)
