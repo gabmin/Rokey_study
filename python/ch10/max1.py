@@ -9,6 +9,12 @@ class c_value:
         print(self.lista)
 
 
+p1 = c_value()
+p1.add(1)
+p1.add(2)
+p1.add(3)
+
+
 def plus(a, b):
     c = a + b
     return c
