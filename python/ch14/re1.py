@@ -11,14 +11,14 @@ print(p.match("5"))
 p = re.compile("[^0-9]")
 print(p.match("5"))
 
-# p = re.compile("[\^0-9]")
-# print(p.match("^"))
-#
-# p = re.compile("\d")
-# print(p.match("5"))
-#
-# p = re.compile("\s")
-# print(p.match("\n"))
+p = re.compile(r"[\^0-9]")
+print(p.match("^"))
+
+p = re.compile(r"\d")
+print(p.match("5"))
+
+p = re.compile(r"\s")
+print(p.match("\n"))
 
 p = re.compile("a.b")
 print(p.match("abb"))
