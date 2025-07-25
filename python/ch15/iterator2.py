@@ -17,5 +17,6 @@ class ReverseIterator:
 
 if __name__ == "__main__":
     ri = ReverseIterator([1, 2, 3, 4, 5])
+    print(next(ri))
     for item in ri:
         print(item)
