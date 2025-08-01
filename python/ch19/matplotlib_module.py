@@ -9,7 +9,16 @@ import matplotlib.pyplot as plt
 # plt.ylabel("value")
 # plt.show()
 
+# categories = ["A", "B", "C", "D"]
+# values = [3, 7, 8, 5]
+# plt.bar(categories, values)
+# plt.show()
+
+plt.rcParams["font.family"] = "Malgun Gothic"
+
 categories = ["A", "B", "C", "D"]
 values = [3, 7, 8, 5]
-plt.bar(categories, values)
+
+plt.bar(categories, values, color="red")
+plt.title("막대 그래프")
 plt.show()
