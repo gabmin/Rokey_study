@@ -4,6 +4,7 @@ oroot = tkinter.Tk()
 
 coffee = {0: "아메리카노", 1: "라떼", 2: "카프치노", 3: "에스프레소"}
 
+
 check_value = {}
 
 for i in range(len(coffee)):
