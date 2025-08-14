@@ -3,3 +3,6 @@
 *.docx
 *.tmp
 *.md
+__pycache__/
+*.pyc
+pytorch_workbook/
