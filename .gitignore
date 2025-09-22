@@ -19,6 +19,10 @@
 *.xlsx
 *.ini
 *.names
+*.pth
+*.pt
+*.npz
 __pycache__/
 pytorch_workbook/
 과제/
+pn_data_n1000/
